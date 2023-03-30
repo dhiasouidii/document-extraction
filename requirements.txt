@@ -1,0 +1,8 @@
+numpy
+PyPDF2
+pandas
+tabula-py
+nltk
+textblob
+Flask
+flask-restful

@@ -1,0 +1,13 @@
+version: '3.0'
+services:
+  dsouidi_document_extraction:
+    container_name: dsouidi_document_extraction
+
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./:/root/workspace
+    ports:
+      - 5000:5000
